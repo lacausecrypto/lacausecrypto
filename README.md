@@ -15,16 +15,10 @@
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/lacausecrypto/OCC">
-<img src="https://img.shields.io/badge/OCC-workflow_orchestrator-000000?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/OCC-claude_chain_orchestrator-000000?style=for-the-badge&logo=anthropic&logoColor=white" />
 </a>
 
 </div>
-
-&nbsp;
-
-## About
-
-I build MCP servers and AI tools — from a unified sports data hub (29 APIs, 319 tools) to native macOS integration and multi-step orchestration pipelines. Everything is open source.
 
 &nbsp;
 
