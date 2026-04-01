@@ -1,6 +1,6 @@
 <div align="center">
 
-# &nbsp;lacause
+# lacause
 
 **Building tools that make AI actually useful on your Mac.**
 
