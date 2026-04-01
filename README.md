@@ -39,31 +39,6 @@ I build systems that bridge AI and native macOS — from MCP servers exposing ev
 
 &nbsp;
 
-## Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [apple-mcp-server](https://github.com/lacausecrypto/apple-mcp-server)
-MCP server exposing **31 macOS apps** as structured tools for Claude. 303 actions covering Music, Safari, Finder, Mail, Calendar, Messages, and 25 more. Three-level permission system, audit logging, rate limiting.
-
-`TypeScript` · `MCP` · `AppleScript`
-
-</td>
-<td width="50%" valign="top">
-
-### [OCC](https://github.com/lacausecrypto/OCC)
-YAML workflow orchestrator for Claude. Chain multi-step AI tasks with conditional logic, parallel execution, and context passing between steps.
-
-`TypeScript` · `Claude API` · `YAML`
-
-</td>
-</tr>
-</table>
-
-&nbsp;
-
 <div align="center">
 
 <a href="https://twitter.com/lacausecrypto">
