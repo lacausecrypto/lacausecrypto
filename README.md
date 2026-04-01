@@ -64,19 +64,6 @@ YAML workflow orchestrator for Claude. Chain multi-step AI tasks with conditiona
 
 &nbsp;
 
-## Stats
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-delta-one.vercel.app?user=lacausecrypto&theme=black-ice&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=9f9f9f&dates=555555&currStreakNum=ffffff&sideNums=9f9f9f" />
-  <img height="170" src="https://github-readme-streak-stats-delta-one.vercel.app?user=lacausecrypto&theme=black-ice&hide_border=true&background=000000" />
-</picture>
-
-</div>
-
-&nbsp;
-
 <div align="center">
 
 <a href="https://twitter.com/lacausecrypto">
