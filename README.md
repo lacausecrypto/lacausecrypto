@@ -2,10 +2,14 @@
 
 # lacause
 
-**Building tools that make AI actually useful on your Mac.**
+**Building tools that make AI actually useful.**
 
 &nbsp;
 
+<a href="https://github.com/lacausecrypto/mcp-sports-hub">
+<img src="https://img.shields.io/badge/mcp--sports--hub-29_providers_·_319_tools-000000?style=for-the-badge&logo=espn&logoColor=FF0000" />
+</a>
+&nbsp;&nbsp;
 <a href="https://github.com/lacausecrypto/apple-mcp-server">
 <img src="https://img.shields.io/badge/apple--mcp--server-31_tools_·_303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" />
 </a>
@@ -20,7 +24,7 @@
 
 ## About
 
-I build systems that bridge AI and native macOS — from MCP servers exposing every Apple app to Claude, to multi-step AI orchestration pipelines. Everything runs locally, everything is open source.
+I build MCP servers and AI tools — from a unified sports data hub (29 APIs, 319 tools) to native macOS integration and multi-step orchestration pipelines. Everything is open source.
 
 &nbsp;
 
