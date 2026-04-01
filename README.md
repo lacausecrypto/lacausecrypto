@@ -68,13 +68,10 @@ YAML workflow orchestrator for Claude. Chain multi-step AI tasks with conditiona
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=lacausecrypto&show_icons=true&hide_border=true&bg_color=000000&title_color=ffffff&text_color=9f9f9f&icon_color=9f9f9f&ring_color=ffffff" />
-&nbsp;&nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lacausecrypto&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=9f9f9f" />
-
-&nbsp;
-
-<img width="700" src="https://github-readme-activity-graph.vercel.app/graph?username=lacausecrypto&bg_color=000000&color=9f9f9f&line=ffffff&point=ffffff&area=true&area_color=333333&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-delta-one.vercel.app?user=lacausecrypto&theme=black-ice&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=9f9f9f&dates=555555&currStreakNum=ffffff&sideNums=9f9f9f" />
+  <img height="170" src="https://github-readme-streak-stats-delta-one.vercel.app?user=lacausecrypto&theme=black-ice&hide_border=true&background=000000" />
+</picture>
 
 </div>
 
