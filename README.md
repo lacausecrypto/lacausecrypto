@@ -6,9 +6,7 @@
 
 &nbsp;
 
-<a href="https://github.com/lacausecrypto/OCC">
-<img src="https://img.shields.io/badge/OCC-YAML--first_LLM_orchestrator-000000?style=for-the-badge&logo=anthropic&logoColor=D97757" />
-</a>
+<a href="https://github.com/lacausecrypto/OCC"><img src="https://img.shields.io/badge/OCC-YAML--first_LLM_orchestrator-000000?style=for-the-badge&logo=anthropic&logoColor=D97757" /></a>
 
 <sub>106 REST endpoints | 29 MCP tools | 3243 tests | 6 LLM providers | React dashboard</sub>
 <br>
@@ -16,13 +14,7 @@
 
 &nbsp;
 
-<a href="https://github.com/lacausecrypto/mcp-conduit">
-<img src="https://img.shields.io/badge/mcp--conduit-MCP_gateway_|_0.02ms_overhead-000000?style=for-the-badge&logo=zap&logoColor=FBBF24" />
-</a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/mcp-sports-hub">
-<img src="https://img.shields.io/badge/mcp--sports--hub-29_providers_|_319_tools-000000?style=for-the-badge&logo=nba&logoColor=FF6600" />
-</a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/apple-mcp-server">
-<img src="https://img.shields.io/badge/apple--mcp--server-31_tools_|_303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" />
-</a>
+<a href="https://github.com/lacausecrypto/mcp-conduit"><img src="https://img.shields.io/badge/mcp--conduit-MCP_gateway_|_0.02ms_overhead-000000?style=for-the-badge&logo=zap&logoColor=FBBF24" /></a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/mcp-sports-hub"><img src="https://img.shields.io/badge/mcp--sports--hub-29_providers_|_319_tools-000000?style=for-the-badge&logo=nba&logoColor=FF6600" /></a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/apple-mcp-server"><img src="https://img.shields.io/badge/apple--mcp--server-31_tools_|_303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" /></a>
 
 </div>
 
@@ -67,8 +59,6 @@ occ start    # API + Dashboard on http://localhost:4242
 
 <div align="center">
 
-<a href="https://twitter.com/lacausecrypto">
-<img src="https://img.shields.io/badge/@lacausecrypto-000000?style=for-the-badge&logo=x&logoColor=white" />
-</a>
+<a href="https://twitter.com/lacausecrypto"><img src="https://img.shields.io/badge/@lacausecrypto-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
 
 </div>
