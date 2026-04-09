@@ -18,13 +18,9 @@
 
 <a href="https://github.com/lacausecrypto/mcp-conduit">
 <img src="https://img.shields.io/badge/mcp--conduit-MCP_gateway_|_0.02ms_overhead-000000?style=for-the-badge&logo=zap&logoColor=FBBF24" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/lacausecrypto/mcp-sports-hub">
-<img src="https://img.shields.io/badge/mcp--sports--hub-29_providers_|_319_tools-000000?style=for-the-badge&logo=espn&logoColor=FF0000" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/lacausecrypto/apple-mcp-server">
+</a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/mcp-sports-hub">
+<img src="https://img.shields.io/badge/mcp--sports--hub-29_providers_|_319_tools-000000?style=for-the-badge&logo=trophy&logoColor=FF4500" />
+</a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/apple-mcp-server">
 <img src="https://img.shields.io/badge/apple--mcp--server-31_tools_|_303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" />
 </a>
 
