@@ -60,6 +60,12 @@ Compact MCP server for exploring classic poetry through PoetryDB with catalog, s
 
 `12 tools` `catalog + search + discovery` `no auth`
 
+### [datamuse-mcp](https://github.com/lacausecrypto/datamuse-mcp)
+
+Compact MCP server for lexical search through the Datamuse API: synonyms, antonyms, rhymes, autocomplete, related words, and word metadata.
+
+`10 tools` `rhymes + synonyms + autocomplete` `Datamuse API`
+
 ## How I Build
 
 - explicit configuration over hidden framework magic
@@ -67,4 +73,3 @@ Compact MCP server for exploring classic poetry through PoetryDB with catalog, s
 - practical MCP installs with clear client setup paths
 - documentation that states limits instead of hiding them
 - domain servers that help the LLM discover capabilities before calling tools
-
