@@ -2,63 +2,65 @@
 
 # lacause
 
-**Building open-source AI infrastructure.**
+Open-source AI infrastructure for agent workflows, MCP tooling, and local automation.
 
-&nbsp;
+<a href="https://github.com/lacausecrypto/OCC"><img src="https://img.shields.io/badge/OCC-YAML_orchestration-000000?style=for-the-badge&logo=anthropic&logoColor=D97757" /></a>
+<a href="https://github.com/lacausecrypto/mcp-conduit"><img src="https://img.shields.io/badge/MCP_Conduit-gateway-000000?style=for-the-badge&logo=zap&logoColor=FBBF24" /></a>
+<a href="https://github.com/lacausecrypto/mcp-sports-hub"><img src="https://img.shields.io/badge/Sports_Hub-319_tools-000000?style=for-the-badge&logo=nba&logoColor=FF6600" /></a>
+<a href="https://github.com/lacausecrypto/apple-mcp-server"><img src="https://img.shields.io/badge/Apple_MCP-303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" /></a>
 
-<a href="https://github.com/lacausecrypto/OCC"><img src="https://img.shields.io/badge/OCC-YAML--first_LLM_orchestrator-000000?style=for-the-badge&logo=anthropic&logoColor=D97757" /></a>
-
-<sub>106 REST endpoints | 29 MCP tools | 3243 tests | 6 LLM providers | React dashboard</sub>
-<br>
-<sub><a href="https://www.npmjs.com/package/occ-orchestrator">npm install -g occ-orchestrator</a></sub>
-
-&nbsp;
-
-<a href="https://github.com/lacausecrypto/mcp-conduit"><img src="https://img.shields.io/badge/mcp--conduit-MCP_gateway_|_0.02ms_overhead-000000?style=for-the-badge&logo=zap&logoColor=FBBF24" /></a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/mcp-sports-hub"><img src="https://img.shields.io/badge/mcp--sports--hub-29_providers_|_319_tools-000000?style=for-the-badge&logo=nba&logoColor=FF6600" /></a>&nbsp;&nbsp;<a href="https://github.com/lacausecrypto/apple-mcp-server"><img src="https://img.shields.io/badge/apple--mcp--server-31_tools_|_303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" /></a>
+<sub><a href="https://www.npmjs.com/package/occ-orchestrator">occ-orchestrator</a> · <a href="https://www.npmjs.com/package/mcp-conduit">mcp-conduit</a> · <a href="https://www.npmjs.com/package/mcp-sports-hub">mcp-sports-hub</a> · <a href="https://twitter.com/lacausecrypto">@lacausecrypto</a></sub>
 
 </div>
 
-&nbsp;
+## What I Build
 
-## Featured: OCC (Orchestrator Chain Chimera)
+I build tools that make AI systems easier to run outside demos:
 
-> Define chains, not code. Multi-model LLM workflows in YAML.
+- YAML-first orchestration instead of framework boilerplate
+- MCP gateways with caching, auth, rate limiting, and guardrails
+- large practical MCP servers with clear install and operating paths
+- local-first automation for macOS and developer workflows
+
+## Featured Projects
+
+### [OCC](https://github.com/lacausecrypto/OCC)
+
+Orchestrator Chain Chimera is a YAML-first runtime for multi-model LLM workflows with parallel execution, pre-tools, REST APIs, and a React dashboard.
+
+`3243 tests` `29 MCP tools` `106 REST endpoints` `6 providers`
 
 ```bash
 npm install -g occ-orchestrator
 occ init my-project && cd my-project
-occ start    # API + Dashboard on http://localhost:4242
+occ start
 ```
 
-| Feature | Details |
-|---------|---------|
-| **YAML chains** | Declarative workflows, git-friendly, auto-parallel execution |
-| **30 pre-tools** | Fetch URLs, run bash, query DBs at zero LLM token cost |
-| **6 providers** | Claude, OpenAI, OpenRouter, Ollama, HuggingFace, custom |
-| **Model routing** | Haiku for subtasks + Sonnet for synthesis = 80% cheaper |
-| **React dashboard** | Canvas editor, workflow chat, live monitor, Swagger UI |
-| **Benchmarked** | 70% faster and 70% cheaper than naive approaches |
+### [MCP Conduit](https://github.com/lacausecrypto/mcp-conduit)
 
-&nbsp;
+An open-source MCP gateway that sits between agents and servers to add routing, caching, auth, guardrails, and observability without changing application code.
+
+`0.02ms overhead` `1341 tests` `HTTP + stdio` `production-focused`
+
+### [Sports Hub MCP Server](https://github.com/lacausecrypto/mcp-sports-hub)
+
+A unified MCP server that aggregates sports data across 29 providers and exposes a single tool surface for scores, stats, odds, esports, and college sports.
+
+`29 providers` `319 tools` `70+ sports`
+
+### [Apple MCP Server](https://github.com/lacausecrypto/apple-mcp-server)
+
+A macOS-focused MCP server that exposes Apple apps and system controls with permission levels, audit logging, and explicit safety boundaries.
+
+`31 tools` `303 actions` `permission model`
+
+## Principles
+
+- explicit configuration over hidden magic
+- benchmarked claims over vague performance promises
+- honest documentation about security and limits
+- tools that work well on one machine before pretending to be a platform
 
 ## Stack
 
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=5FA04E)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFDD54)
-![SQLite](https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=003B57)
-![Claude](https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=D97757)
-![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=8B5CF6)
-
-</div>
-
-&nbsp;
-
-<div align="center">
-
-<a href="https://twitter.com/lacausecrypto"><img src="https://img.shields.io/badge/@lacausecrypto-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-
-</div>
+`TypeScript` `Node.js` `React` `SQLite` `Python` `Claude` `MCP`
