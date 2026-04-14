@@ -2,65 +2,69 @@
 
 # lacause
 
-Open-source AI infrastructure for agent workflows, MCP tooling, and local automation.
+Open-source AI infrastructure and data-facing MCP servers.
 
-<a href="https://github.com/lacausecrypto/OCC"><img src="https://img.shields.io/badge/OCC-YAML_orchestration-000000?style=for-the-badge&logo=anthropic&logoColor=D97757" /></a>
-<a href="https://github.com/lacausecrypto/mcp-conduit"><img src="https://img.shields.io/badge/MCP_Conduit-gateway-000000?style=for-the-badge&logo=zap&logoColor=FBBF24" /></a>
-<a href="https://github.com/lacausecrypto/mcp-sports-hub"><img src="https://img.shields.io/badge/Sports_Hub-319_tools-000000?style=for-the-badge&logo=nba&logoColor=FF6600" /></a>
-<a href="https://github.com/lacausecrypto/apple-mcp-server"><img src="https://img.shields.io/badge/Apple_MCP-303_actions-000000?style=for-the-badge&logo=apple&logoColor=white" /></a>
-
-<sub><a href="https://www.npmjs.com/package/occ-orchestrator">occ-orchestrator</a> · <a href="https://www.npmjs.com/package/mcp-conduit">mcp-conduit</a> · <a href="https://www.npmjs.com/package/mcp-sports-hub">mcp-sports-hub</a> · <a href="https://twitter.com/lacausecrypto">@lacausecrypto</a></sub>
+I build two kinds of projects: the tooling around agents, and the MCP servers that expose usable domain data to those agents.
 
 </div>
 
-## What I Build
-
-I build tools that make AI systems easier to run outside demos:
-
-- YAML-first orchestration instead of framework boilerplate
-- MCP gateways with caching, auth, rate limiting, and guardrails
-- large practical MCP servers with clear install and operating paths
-- local-first automation for macOS and developer workflows
-
-## Featured Projects
+## Infrastructure
 
 ### [OCC](https://github.com/lacausecrypto/OCC)
 
-Orchestrator Chain Chimera is a YAML-first runtime for multi-model LLM workflows with parallel execution, pre-tools, REST APIs, and a React dashboard.
+YAML-first LLM orchestrator for multi-model chains with auto-parallelism, pre-tools, MCP integration, REST APIs, and a React canvas.
 
 `3243 tests` `29 MCP tools` `106 REST endpoints` `6 providers`
 
-```bash
-npm install -g occ-orchestrator
-occ init my-project && cd my-project
-occ start
-```
+### [mcp-conduit](https://github.com/lacausecrypto/mcp-conduit)
 
-### [MCP Conduit](https://github.com/lacausecrypto/mcp-conduit)
+Open-source MCP gateway for routing, caching, auth, rate limiting, guardrails, and observability between agents and MCP servers.
 
-An open-source MCP gateway that sits between agents and servers to add routing, caching, auth, guardrails, and observability without changing application code.
+`0.02ms overhead` `46K+ RPS cache hits` `1341 tests` `HTTP + stdio`
 
-`0.02ms overhead` `1341 tests` `HTTP + stdio` `production-focused`
+### [apple-mcp-server](https://github.com/lacausecrypto/apple-mcp-server)
 
-### [Sports Hub MCP Server](https://github.com/lacausecrypto/mcp-sports-hub)
+macOS automation MCP server with explicit permission levels, audit logging, and structured tool access to Apple apps and system controls.
 
-A unified MCP server that aggregates sports data across 29 providers and exposes a single tool surface for scores, stats, odds, esports, and college sports.
+`31 tools` `303 actions` `permission model` `audit log`
+
+## Data Servers
+
+### [mcp-belgium](https://github.com/lacausecrypto/mcp-belgium)
+
+Aggregated MCP server for Belgian public APIs: transport, official statistics, addresses, weather, air quality, open data, and geospatial services.
+
+`16 APIs` `63 tools` `single entry point` `Belgian public data`
+
+### [mcp-nbb](https://github.com/lacausecrypto/mcp-nbb)
+
+MCP server for the National Bank of Belgium SDMX statistical API, with a bundled catalogue so LLMs can discover and query dataflows cleanly.
+
+`221 dataflows` `6 tools` `3 resources` `14 categories`
+
+### [mcp-sports-hub](https://github.com/lacausecrypto/mcp-sports-hub)
+
+Unified MCP server for sports data across scores, stats, odds, esports, and college sports.
 
 `29 providers` `319 tools` `70+ sports`
 
-### [Apple MCP Server](https://github.com/lacausecrypto/apple-mcp-server)
+### [mcp-new-caledonia](https://github.com/lacausecrypto/mcp-new-caledonia)
 
-A macOS-focused MCP server that exposes Apple apps and system controls with permission levels, audit logging, and explicit safety boundaries.
+Compact MCP server for New Caledonia public datasets, covering companies, employment, weather, mining, environment, population, and transport.
 
-`31 tools` `303 actions` `permission model`
+`10 modules` `29 tools` `data.gouv.nc`
 
-## Principles
+### [mcp-poetrydb](https://github.com/lacausecrypto/mcp-poetrydb)
 
-- explicit configuration over hidden magic
-- benchmarked claims over vague performance promises
-- honest documentation about security and limits
-- tools that work well on one machine before pretending to be a platform
+Compact MCP server for exploring classic poetry through PoetryDB with catalog, search, and discovery tools.
 
-## Stack
+`12 tools` `catalog + search + discovery` `no auth`
 
-`TypeScript` `Node.js` `React` `SQLite` `Python` `Claude` `MCP`
+## How I Build
+
+- explicit configuration over hidden framework magic
+- benchmarked claims when performance is part of the pitch
+- practical MCP installs with clear client setup paths
+- documentation that states limits instead of hiding them
+- domain servers that help the LLM discover capabilities before calling tools
+
