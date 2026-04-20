@@ -15,7 +15,7 @@ I build two kinds of projects: the tooling around agents, and the MCP servers th
 | [OCC](https://github.com/lacausecrypto/OCC) | YAML-first LLM orchestrator with auto-parallelism, pre-tools, MCP, REST APIs, and React canvas | `3243 tests` `29 MCP tools` `106 REST endpoints` `6 providers` |
 | [mcp-conduit](https://github.com/lacausecrypto/mcp-conduit) | MCP gateway for routing, caching, auth, rate limiting, guardrails, and observability | `0.02ms overhead` `46K+ RPS cache hits` `1341 tests` `HTTP + stdio` |
 | [apple-mcp-server](https://github.com/lacausecrypto/apple-mcp-server) | macOS automation MCP server with permission controls and audit logging | `31 tools` `303 actions` `permission model` `audit log` |
-| [mcp-sophon](https://github.com/lacausecrypto/mcp-sophon) | Context layer for MCP agents — LLM summary beats retrieval on LOCOMO, honest benchmarks at N=80 | `67% savings` `40% LOCOMO N=80` `215 tests` `20 output filters` |
+| [mcp-sophon](https://github.com/lacausecrypto/mcp-sophon) | Deterministic context compressor for MCP agents — slots in front of prompt caching, mem0, Letta, or Claude Code. Zero ML at query time, single Rust binary. | `+24% tokens / +49% $ on top of prompt caching` `68% session savings` `405 tests` `MCP 2025-06-18` |
 
 ## Data Servers
 
