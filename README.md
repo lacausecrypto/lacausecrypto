@@ -2,17 +2,23 @@
 
 # lacause
 
-Open-source AI infrastructure and data-facing MCP servers.
+Open-source AI infrastructure, apps, and data-facing MCP servers.
 
-I build two kinds of projects: the tooling around agents, and the MCP servers that expose usable domain data to those agents.
+I build three kinds of projects: the apps I actually use daily, the tooling around agents, and the MCP servers that expose usable domain data to those agents.
 
 </div>
+
+## Apps
+
+| Project | Focus | Signals |
+| --- | --- | --- |
+| [vibecode-dash](https://github.com/lacausecrypto/vibecode-dash) | Local-first dashboard for the vibe-coding era: LLM CLI usage, projects + GitHub, Obsidian vault, and mode-aware agent sessions with a Karpathy-style memory write-back loop | `~60 API endpoints` `claude + codex CLIs` `Obsidian FTS5 + graph` `memory write-back` `127.0.0.1 only` |
+| [OCC](https://github.com/lacausecrypto/OCC) | YAML-first LLM orchestrator with auto-parallelism, pre-tools, MCP, REST APIs, and React canvas | `3243 tests` `29 MCP tools` `106 REST endpoints` `6 providers` |
 
 ## Infrastructure
 
 | Project | Focus | Signals |
 | --- | --- | --- |
-| [OCC](https://github.com/lacausecrypto/OCC) | YAML-first LLM orchestrator with auto-parallelism, pre-tools, MCP, REST APIs, and React canvas | `3243 tests` `29 MCP tools` `106 REST endpoints` `6 providers` |
 | [mcp-conduit](https://github.com/lacausecrypto/mcp-conduit) | MCP gateway for routing, caching, auth, rate limiting, guardrails, and observability | `0.02ms overhead` `46K+ RPS cache hits` `1341 tests` `HTTP + stdio` |
 | [apple-mcp-server](https://github.com/lacausecrypto/apple-mcp-server) | macOS automation MCP server with permission controls and audit logging | `31 tools` `303 actions` `permission model` `audit log` |
 | [mcp-sophon](https://github.com/lacausecrypto/mcp-sophon) | Deterministic context compressor for MCP agents — slots in front of prompt caching, mem0, Letta, or Claude Code. Zero ML at query time, single Rust binary. | `+24% tokens / +49% $ on top of prompt caching` `68% session savings` `405 tests` `MCP 2025-06-18` |
