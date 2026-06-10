@@ -2,9 +2,9 @@
 
 # lacause
 
-Open-source AI infrastructure, apps, and data-facing MCP servers.
+Open-source AI infrastructure, data-facing MCP servers, and tools for the apps and games I actually use.
 
-I build three kinds of projects: the apps I actually use daily, the tooling around agents, and the MCP servers that expose usable domain data to those agents.
+I build things I'd use anyway: the tooling around agents, the MCP servers that expose usable domain data to them, the apps I keep open, and tools for the games I play — like a full third-party toolkit for EVE Online.
 
 </div>
 
@@ -14,6 +14,12 @@ I build three kinds of projects: the apps I actually use daily, the tooling arou
 | --- | --- | --- |
 | [vibecode-dash](https://github.com/lacausecrypto/vibecode-dash) | Local-first dashboard for the vibe-coding era: LLM CLI usage, projects + GitHub, Obsidian vault, and mode-aware agent sessions with a Karpathy-style memory write-back loop | `~60 API endpoints` `claude + codex CLIs` `Obsidian FTS5 + graph` `memory write-back` `127.0.0.1 only` |
 | [OCC](https://github.com/lacausecrypto/OCC) | YAML-first LLM orchestrator with auto-parallelism, pre-tools, MCP, REST APIs, and React canvas | `3243 tests` `29 MCP tools` `106 REST endpoints` `6 providers` |
+
+## Game Tools
+
+| Project | Focus | Signals |
+| --- | --- | --- |
+| [eve-tools-suite](https://github.com/lacausecrypto/eve-tools-suite) | All-in-one toolkit for EVE Online: 15 tools (appraisal, fitting, industry, market, LP, killmail intel, skill planning) in one desktop app — plus 4 that run in the browser, no login | `15 tools` `Tauri 2 + React` `4 live web tools` `EULA-safe · public ESI` `bilingual EN/FR` `signed auto-update` |
 
 ## Infrastructure
 
